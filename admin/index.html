@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>SoftPajamas: admin</title>
+    <link href="/styles/main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/javascript/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <a href="http://softpajamas.ru">SoftPajamas</a>
+    </div>
+    <div id="sidebar">
+
+    </div>
+    <div id="content">
+      <p>Добавить товар:</p>
+      <form action="/php/post.php" method="post" enctype="multipart/form-data">
+        <input required type="password" class="form-control" name="pass" id="pass" placeholder="Пароль">
+        <input required type="text" class="form-control" name="name" id="name" maxlength=100 placeholder="Имя">
+        <input required type="number" class="form-control" name="price" id="price" step=0.01 placeholder="Цена">
+        <select id="type" class="form-control" name="type">
+          <option value="new">Новинка</option>
+          <option value="popular">Популярное</option>
+          <option value="sale">По скидке</option>
+          <option value="not">Без типа</option>
+        </select>
+        <input required type="number" class="form-control" name="number" id="number" placeholder="Количество товара">
+        Загрузите изображение:<br>
+        <input required type="file" class="form-control" name="image" id="image" placeholder="Enter path to image">
+        <textarea required type="text"  class="form-control" name="info" id="info" maxlength=1000 placeholder="Информация о товаре" cols=100 rows=5></textarea>
+        <button class="btn btn-success">Загрузить</button>
+      </form>
+      <br>
+      <br>
+      <p>Удалить товар:</p>
+      <form action="/php/delete.php" method="post" enctype="multipart/form-data">
+        <input required type="password" class="form-control" name="pass" id="pass" placeholder="Пароль">
+        <input required type="number" class="form-control" name="id" id="id" placeholder="ID товара">
+        <button class="btn btn-success">Удалить</button>
+      </form>
+
+
+    </div>
+
+ </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+  background-image: url(/images/fone.svg);
+  background-size: cover;
+}
+
+#logo {
+  width: 100%;
+
+}
+
+#sidebar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+#sidebar a {
+  margin: 10px;
+}
+
+#content {
+  padding: 20px;
+}
+
+.product {
+  margin: auto;
+  padding-top: 10px;
+  width: 90%;
+  outline: #848484 solid 0px;
+  background-color: #fff;
+}
+.info_of_product {
+  width: 70%;
+}
+.product img {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+form {
+  margin: 10px;
+  margin-left: 0px;
+}

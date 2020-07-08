@@ -1,0 +1,59 @@
+body {
+  background-image: url(/images/fone.svg);
+  background-size: cover;
+}
+
+#header {
+  /* height: 495px; */
+}
+#logo {
+  width: 100%;
+
+}
+
+#sidebar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+#sidebar a {
+  margin: 10px;
+}
+
+#content .row div {
+  text-align: center;
+  background-color: inherit;
+  padding: 20px;
+  transition: background-color 0.35s ease-in;
+  color: #fff;
+}
+
+.product:hover {
+  background-color: #3aebcaaa;
+  text-decoration: none;
+
+
+}
+
+.product img {
+  width: 100%;
+}
+.frm {
+  padding: 20px;
+}
+
+.frm input {
+  display: block;
+  margin: 10px;
+}
+.frm textarea {
+  display: block;
+  width: 100%;
+  margin: 10px;
+
+}
+
+figure img{
+  width: 100%;
+}
