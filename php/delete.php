@@ -6,7 +6,6 @@
     <title>SoftPajamas</title>
   </head>
   <body>
-
     <div id="content">
       <?php
         $pass = $_POST['pass'];
@@ -17,6 +16,7 @@
           $result = $mysql->query("SELECT * FROM `product` WHERE `id` = $id");
           $mysql->query("DELETE FROM products WHERE id = $id");
           $mysql->close();
+          header('Location:/admin');
           $product = $result->fetch_assoc();
 
           $filename = $product['image'];

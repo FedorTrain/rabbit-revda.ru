@@ -27,6 +27,7 @@
             VALUES('$name','$price','$image','$info','$type','$number')");
 
             $mysql->close();
+            echo 'close';
             header('Location:/admin');
 
 
