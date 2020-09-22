@@ -13,7 +13,7 @@
         if ($pass == "dickduck") {
 
           $id = $_POST['id'];
-          $mysql = new mysqli('localhost', 'u0842107_admin', '2Q0n1R1h', 'u0842107_products');
+          $mysql = new mysqli('localhost', 'u1088104', 'Q8p7P2s5', 'u1088104_users');
           $result = $mysql->query("SELECT * FROM `product` WHERE `id` = $id");
           $mysql->query("DELETE FROM products WHERE id = $id");
           $mysql->close();
@@ -21,7 +21,7 @@
 
           $filename = $product['image'];
 
-          unlink('/var/www/u0842107/data/www/softpajamas.ru/images/' . $filename);
+          unlink('/var/www/u1088104/data/www/rabbit-revda.ru/images/' . $filename);
 
         }
         else {

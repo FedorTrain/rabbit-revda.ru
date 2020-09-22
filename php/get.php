@@ -2,7 +2,7 @@
   header('Content-Type: application/json');
 
   $id = $_POST['id'];
-  $mysql = new mysqli('localhost', 'u0842107_admin', '2Q0n1R1h', 'u0842107_products');
+  $mysql = new mysqli('localhost', 'u1088104', 'Q8p7P2s5', 'u1088104_users');
 
   $result = $mysql->query("SELECT * FROM `products` WHERE `id` = $id");
   $mysql->close();
