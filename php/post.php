@@ -1,14 +1,4 @@
-<!-- <!DOCTYPE html>
-<html >
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <title>SoftPajamas</title>
-  </head>
-  <body>
-
-    <div id="content"> -->
-      <?php
+<?php
         if ($_POST['pass'] == "dickduck") {
           $uploaddir = '/var/www/u1088104/data/www/rabbit-revda.ru/images/';
           $uploadfile = $uploaddir . basename($_FILES['image']['name']);
@@ -28,14 +18,7 @@
 
             $mysql->close();
             header('Location:/admin');
-
-
           }
-          echo 'Error: ';
-          echo $_FILES['image']['name'] . ' - ';
-          echo $_FILES['image']['name'] . ' - ';
-          echo $uploaddir . ' - ';
-          echo $uploadfile;
         } else {
           echo "password is bad";
         }

@@ -30,6 +30,5 @@
 
     mail($to, $subject, $msg, $headerss);
     header('Location:/sections/thanks.html');
-
   }
 ?>
