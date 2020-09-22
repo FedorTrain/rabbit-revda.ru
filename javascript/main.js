@@ -40,7 +40,7 @@ function product(id) {
       inputProduct(id, image, name, price, info, type, number);
     },
     error: function (jqXHR, textStatus, errorThrown){
-      alert('error');
+      // alert('error');
     }
   });
   return get;
@@ -58,7 +58,7 @@ function load_id() {
       product_id = Object.values(data);
     },
     error: function (jqXHR, textStatus, errorThrown){
-      alert('error of id');
+      // alert('error of id');
     }
   });
 }
