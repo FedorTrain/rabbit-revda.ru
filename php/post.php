@@ -10,7 +10,7 @@
     <div id="content">
       <?php
         if ($_POST['pass'] == "dickduck") {
-          $uploaddir = '/var/www/u0842107/data/www/softpajamas.ru/images/';
+          $uploaddir = '/var/www/u0842107/data/www/rabbit-revda.ru/images/';
           $uploadfile = $uploaddir . basename($_FILES['image']['name']);
 
           if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {
@@ -22,7 +22,7 @@
             $image = $_FILES['image']['name'];
             $info = filter_var(trim($_POST['info']), FILTER_SANITIZE_STRING);
 
-            $mysql = new mysqli('localhost', 'u0842107_admin', '2Q0n1R1h', 'u0842107_products');
+            $mysql = new mysqli('localhost', 'u1088104', 'Q8p7P2s5', 'u1088104_users');
             $mysql->query("INSERT INTO `products` (`name`, `price`, `image`, `info`, `type`, `number`)
             VALUES('$name','$price','$image','$info','$type','$number')");
 
