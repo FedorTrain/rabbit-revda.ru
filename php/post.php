@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html >
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -7,7 +7,7 @@
   </head>
   <body>
 
-    <div id="content">
+    <div id="content"> -->
       <?php
         if ($_POST['pass'] == "dickduck") {
           $uploaddir = '/var/www/u1088104/data/www/rabbit-revda.ru/images/';
@@ -41,8 +41,8 @@
           echo "password is bad";
         }
       ?>
-
+<!--
     </div>
 
  </body>
-</html>
+</html> -->
