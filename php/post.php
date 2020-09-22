@@ -10,7 +10,7 @@
     <div id="content">
       <?php
         if ($_POST['pass'] == "dickduck") {
-          $uploaddir = '/var/www/u0842107/data/www/rabbit-revda.ru/images/';
+          $uploaddir = '/var/www/u1088104/data/www/rabbit-revda.ru/images/';
           $uploadfile = $uploaddir . basename($_FILES['image']['name']);
 
           if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)) {
