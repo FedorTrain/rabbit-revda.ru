@@ -17,7 +17,7 @@
       <div class="container">
         <div class="row">
           <div class="col-4">
-            <a href="http://softpajamas.ru"><img src="/images/logo1.svg" id="logo" ></a>
+            <a href="http://rabbit-revda.ru"><img src="/images/logo1.svg" id="logo" ></a>
           </div>
 
           <div id="sidebar" class="col-8">
@@ -35,12 +35,12 @@
       <?php
         $id = $_GET['id'];
 
-        $mysql = new mysqli('localhost', 'u0842107_admin', '2Q0n1R1h', 'u0842107_products');
+        $mysql = new mysqli('localhost', 'u1088104', 'Q8p7P2s5', 'u1088104_users');
         $result = $mysql->query("SELECT * FROM `products` WHERE `id` = $id");
         $mysql->close();
         $product = $result->fetch_assoc();
         $price = 'p';
-        
+
         echo '<div class="product">
         <div class="container">
           <div class="row">
