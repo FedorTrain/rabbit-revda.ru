@@ -53,8 +53,7 @@
               <form action="/php/mail.php?id=' . $id . '" method="post" class="frm col-xs-6 col-sm-6 col-md-8 col-lg-8">
                 <input type="text" name="name" placeholder="Имя">
                 <input type="tel" name="phone" placeholder="Телефон">
-                // <input type="text" name="mail" placeholder="Электронная почта">
-                // <input type="text" name="vk" placeholder="Вконтакте">
+
                 <textarea name="msg" placeholder="Комментарий"></textarea>
                 <input type="submit" name="otprav" value="Отправить">
               </form>';
@@ -66,3 +65,5 @@
 
  </body>
 </html>
+<!--  <input type="text" name="mail" placeholder="Электронная почта">
+ <input type="text" name="vk" placeholder="Вконтакте"> -->
