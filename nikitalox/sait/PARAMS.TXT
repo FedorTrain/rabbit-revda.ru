@@ -1,0 +1,219 @@
+array (
+  'rss_textmod' => '1',
+  'autoIntroOn' => '0',
+  'introLinkTempl' => '',
+  'title_words_count' => '5',
+  'start_top' => '0',
+  'start_link' => '0',
+  'max_items' => '1',
+  'titleUniqueOn' => '1',
+  'postType' => 'post',
+  'user_id' => '1',
+  'post_status' => 'publish',
+  'post_more_on' => '0',
+  'intro_size' => '500',
+  'introSymbolEnd' => '',
+  'postSlugOn' => '1',
+  'aliasMethod' => '0',
+  'aliasSize' => '',
+  'no_save_without_pic' => '0',
+  'intro_pic_on' => '1',
+  'post_thumb_on' => '1',
+  'image_save' => '1',
+  'image_path' => '/wp-content/uploads/',
+  'img_path_method' => '0',
+  'imageHtmlCode' => '<img src="%PATH%" %ATTR% />',
+  'image_resize' => '1',
+  'img_intro_crop' => '0',
+  'intro_pic_width' => '150',
+  'intro_pic_height' => '150',
+  'intro_pic_quality' => '100',
+  'text_pic_width' => '600',
+  'text_pic_height' => '600',
+  'text_pic_quality' => '100',
+  'translate_on' => '0',
+  'translate_method' => '0',
+  'translate_lang' => 'en-ru',
+  'yandex_api_key' => '',
+  'translate2_on' => '0',
+  'translate2_method' => '0',
+  'translate2_lang' => 'en-ru',
+  'yandex_api_key2' => '',
+  'tagsOn' => '0',
+  'tagsCount' => '',
+  'tagsStopList' => 'без, более, бы, был, была, были, было, быть, вам, вас, ведь, весь, вдоль, вместо, вне, вниз, внизу, внутри, во, вокруг, вот, все, всегда, всего, всех, вы, где, да, давай, давать, даже, для, до, достаточно, его, ее, её, если, есть, ещё, же, за, за исключением, здесь, из, из-за, или, им, иметь, их, как, как-то, кто, когда, кроме, кто, ли, либо, мне, может, мои, мой, мы, на, навсегда, над, надо, наш, не, него, неё, нет, ни, них, но, ну, об, однако, он, она, они, оно, от, отчего, очень, по, под, после, потому, потому что, почти, при, про, снова, со, так, также, такие, такой, там, те, тем, то, того, тоже, той, только, том, тут, ты, уже, хотя, чего, чего-то, чей, чем, что, чтобы, чьё, чья, эта, эти, это',
+  'strip_tags' => '1',
+  'allowed_tags' => '<img><b><i><u><object><embed><param><p><strong><br><ul><li><iframe>',
+  'user_replace_on' => '0',
+  'usrepl' => 
+  array (
+    0 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    1 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    2 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    3 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    4 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    5 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    6 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    7 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    8 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    9 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    10 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    11 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    12 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    13 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    14 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    15 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    16 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    17 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    18 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+    19 => 
+    array (
+      'type' => '0',
+      'name' => '',
+      'search' => '',
+      'replace' => '',
+      'limit' => '',
+    ),
+  ),
+  'template_on' => '1',
+  'template_title' => '%TITLE%',
+  'template_full_text' => '%FULL_TEXT%',
+  'requestMethod' => '0',
+  'filter_words_on' => '0',
+  'filter_words_where' => 'title',
+  'filter_words_save' => '0',
+  'filter_words_list' => '',
+)

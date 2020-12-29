@@ -1,0 +1,251 @@
+#slidearea{
+	overflow: hidden;
+	position: relative; 
+	width:1000px;
+}
+
+/* tabs */
+
+.widgets {
+	width:1000px;
+	padding:0px 0px 0px 0px;
+	background:#111111;
+	height:350px;
+	font-family: Arial,Tahoma,Century gothic,Tahoma,sans-serif;
+}
+
+.widgets a {
+	color: #222;
+	text-decoration: none;
+	}
+	
+.widgets a:hover {
+
+	}
+img.slidim{
+	width:575px;
+	height:331px;
+
+
+}
+
+img.boximage{
+	width:100px;
+	height:70px;
+	float:left;
+	margin-right:10px;
+	background:#000;
+	padding:5px;
+	
+}
+
+	
+ul#tabnav{
+	height:331px;
+	margin:0px 0px;
+	background:#000;
+	width:400px;
+	float:right;
+	margin:10px 10px 10px 0px;
+	overflow:auto;
+
+}	
+	
+#tabnav li {
+	list-style: none;
+	}
+
+#tabnav li a:link,#tabnav li a:visited {
+
+	display:inline;
+	float:left;
+	width:385px;
+	height:80px;
+	margin-bottom:1px;
+	background:#343434;
+	border:1px solid #444;
+}	
+	
+#tabnav li a:hover, #tabnav li a:active, #tabnav li.ui-tabs-selected a {
+	background: #222;
+	border:1px solid #333;
+	}
+a.listab{
+	display:block;
+	width:385px;
+	height:80px;
+
+}
+
+.listab h3{
+	font-size:14px;
+	font-weight:bold;
+	padding:5px;
+	color:#95ca05;
+	text-shadow:-1px -1px 1px #111;
+
+}
+.listab p{
+	font-size:12px;
+	line-height:16px;
+	color:#bbb;
+}
+.tabdiv {
+
+	margin:10px 0px 10px 10px;
+	width:575px;
+	float:left;
+	height:331px;
+	position:relative;
+	display:inline;
+	background:#000;
+
+	}
+
+.featpost{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	background:url(images/trans.png);
+	padding:10px;
+	border-top:1px solid #000;
+	color:#999;
+	width:555px;
+}	
+	
+.ui-tabs-hide {
+	display: none;
+		}
+
+.squarebanner {
+
+	}
+
+.squarebanner ul{
+	list-style-type:none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	width:330px;
+	overflow:auto;
+		}
+		
+.squarebanner ul li{
+		list-style-type:none;
+	    margin: 7px 0px 7px 15px;
+		float:left;
+		display:inline;
+		background:#fff;
+		padding:7px;
+		}
+
+.customScrollerContainer {
+
+}
+
+.customScrollerContent {
+	margin:0px!important;
+	padding:0px!important;
+}
+
+/* SCROLLER STYLE */
+
+/* VERTICAL */
+.divVScrollerBar {
+	width: 10px;
+}
+
+/* ORIZONTAL */
+.divOScrollerBar {
+	height: 10px;
+	margin-top: 1px;
+}
+
+/* AREA UP */
+
+.divVScrollerBarUp {
+	cursor: pointer;
+	height: 17px;
+}
+
+/* AREA DOWN */
+.divVScrollerBarDown {
+	cursor: pointer;
+	height: 17px;
+}
+
+
+/* ARROW UP AND DOWN */
+.divVScrollerBarUp span,
+.divVScrollerBarDown span {
+	display: block;
+	border: 1px solid #dae4eb;
+	width: 16px;
+	height: 15px;
+	line-height: 0;
+	font-size: 0;
+}
+
+.divVScrollerBarUp span {
+	background: #baccda ;
+}
+.divVScrollerBarDown span {
+	background: #baccda ;
+}
+
+/* ARROWS HOVER */
+.divVScrollerBarUp span.hover,
+.divOScrollerBarLeft span.hover,
+.divVScrollerBarDown span.hover,
+.divOScrollerBarRight span.hover {
+	border: 1px solid #a3bbce;
+	background-color: #527fa2;
+}
+
+/* TRACE */
+.divVScrollerBarTrace, .divOScrollerBarTrace {
+	background-color: #494949;
+	line-height: 0;
+	font-size: 0;
+}
+
+/* CURSORS */
+.divVScrollerBarCursor {
+	cursor: pointer;
+}
+.divOScrollerBarCursor {
+	cursor: pointer;
+}
+
+.divVScrollerBarCursor span {
+	display: block;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	height: 100%;
+	width: 8px;
+	background: #83b107 url(images/scroll.png) center no-repeat ;
+	line-height: 0;
+	font-size: 0;
+}
+
+.divOScrollerBarCursor span {
+	display: block;
+	border-top: 1px solid #dae4eb;
+	border-bottom: 1px solid #dae4eb;
+	height: 16px;
+	width: 100%;
+	background: #000 ;
+	line-height: 0;
+	font-size: 0;
+}
+/* CURSORS HOVER */
+.divVScrollerBarCursor span.hover {
+	border-left: 1px solid #ACCF40;
+	border-right: 1px solid #ACCF40;
+	background-color: #83b107;
+}
+
+.divOScrollerBarCursor span.hover {
+	border-top: 1px solid #a3bbce;
+	border-bottom: 1px solid #a3bbce;
+	background-color: #527fa2;
+}

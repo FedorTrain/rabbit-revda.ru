@@ -15,7 +15,6 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-
 }
 #sidebar a {
   margin: 10px;
@@ -32,8 +31,6 @@ body {
 .product:hover {
   background-color: #3aebcaaa;
   text-decoration: none;
-
-
 }
 
 .product img {
@@ -51,7 +48,6 @@ body {
   display: block;
   width: 100%;
   margin: 10px;
-
 }
 
 figure img{
